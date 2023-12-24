@@ -15,8 +15,8 @@
 }
 
 .header{
-    width: 1400px;
-    height: 80px;
+    width: 90vw;
+    height: 10vh;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -24,7 +24,7 @@
 }
 
 .logo h1{
-    font-size: 35px;
+    font-size: 5vh;
     color: #98c1d9;
     font-weight: 600;
     cursor: pointer;
@@ -40,11 +40,11 @@
     justify-content: center;
     align-items: center;
     list-style-type: none;
-    gap: 50px;
+    gap: 3vw;
 }
 
 .nav-links ul li a{
-    font-size: 21px;
+    font-size: 3vh;
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 0.05em;
@@ -54,17 +54,17 @@
 
 .nav-links ul li a:hover{
     color: #98c1d9;
-    font-size: 27px;
+    font-size: 4vh;
 }
 
 .btn{
-    padding: 10px 20px;
+    padding: 1vh 2vw;
     color: #e0fbfc;
     cursor: pointer;
     display: inline-block;
     text-decoration: none;
     background: #3d5a80;
-    border-radius: 30px;
+    border-radius: 3vw;
     box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 4px, 
     rgba(0, 0, 0, 0.4) 0px 7px 13px -3px,
     rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
@@ -73,7 +73,7 @@
 }
 
 .btn-primary{
-    margin-left: 100px;
+    margin-left: 10vw;
     color: #3d5a80;
     background: #e0fbfc;
 }
@@ -90,8 +90,8 @@
 
 .main{
     position: relative;
-    width: 1400px;
-    height: 80%;
+    width: 90vw;
+    height: 80vh;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -99,9 +99,9 @@
 }
 
 .line{
-    width: 80px;
-    border-bottom: 8px solid #ee6c4d;
-    margin-bottom: 30px;
+    width: 5vw;
+    border-bottom: 1vh solid #ee6c4d;
+    margin-bottom: 3vh;
 }
 
 .main h1{
@@ -114,7 +114,7 @@
 .main h2{
    font-size: 40px; 
    color: #98c1d9;
-   margin-bottom: 50px;
+   margin-bottom: 5vh;
 }
 
 .main span{
@@ -122,10 +122,10 @@
 }
 
 .main p{
-    width: 800px;
+    width: 50vw;
     font-size: 18px;
     color: #e0fbfc;
-    margin-bottom: 30px;
+    margin-bottom: 3vh;
     letter-spacing: 0.05em;
 }
 
@@ -135,8 +135,8 @@
 
 .image{
     position: relative;
-    width: 500px;
-    height: 500px;
+    width: 35vw;
+    height: 69vh;
     border-radius: 50%;
     border: 50px solid #ee6c4d;
     z-index: 8888;
@@ -156,11 +156,11 @@
 }
 
 .image img{
-    margin-top: -42px;
-    margin-left: 8px;
+    margin-top: -4.5vh;
+    margin-left: 1vw;
     width: 100%;
     scale: 140%;
-    border-radius: 450px;
+    border-radius: 100vw;
 }
 
 .social{
@@ -170,7 +170,7 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    gap: 50px;
+    gap: 5vw;
 }
 
 .social i{
